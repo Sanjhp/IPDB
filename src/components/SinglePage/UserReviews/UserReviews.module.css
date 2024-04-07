@@ -1,0 +1,35 @@
+.userReviewsContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* You can adjust the height based on your design */
+  padding: 1.5% 1%;
+  background-color: #212121;
+  margin: 1%;
+  border-radius: 15px;
+}
+
+.userReviewEntry {
+  /* border: 1px solid rgba(248, 248, 255, 0.234); */
+  padding: 0.5% 1%;
+  margin-bottom: 5px;
+  background-color: #1b1b1b;
+  border-radius: 10px;
+}
+
+.Rusername {
+  flex: 10%;
+  color: rgba(248, 248, 255, 0.434);
+  font-size: small;
+  text-align: left;
+  flex: 90%;
+  margin: 5px;
+  /* padding: 1%; */
+}
+
+.Ruserreview {
+  color: rgb(248, 248, 255);
+  font-size: medium;
+  text-align: justify;
+  flex: 90%;
+  padding: 1%;
+}
